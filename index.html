@@ -21,14 +21,16 @@
         <img src="logo10.png" class="logo" title="dribdat" alt="dribdat">
         <h1 class="title">dribdat</h1>
         <p class="slogan">
-          The open source way to <tt>better_prototypes();</tt>
+          <small>Started</small> <tt>2015</tt><br>
+          <small>License</small> <tt>MIT</tt><br>
+          <small>Commits</small> <tt>1000+</tt><br>
         </p>
       </div>
     </header>
 
     <div class="content visual" style="padding-top:0px">
       <p class="lead">
-        <a href="https://github.com/dribdat">dribdat</a> is a software package for impactful sprints and hackathons.
+        <a href="https://github.com/dribdat">dribdat</a> is a web app for impactful sprints and hackathons.
         Collect play-by-play details of collaborative events,
         track progress of teams, and document the results in real time.
       </p>
@@ -39,9 +41,9 @@
           <a href="https://opencollective.com/dribdat" target="_blank">OpenCollective</a>.
       </p>
 
-      <p>
+      <p class="action-buttons">
         <a href="https://github.com/dribdat/dribdat#quickstart">
-          <button class="primary">Install now</button>
+          <button class="primary" style="font-size: 1.3em;">Install now</button>
         </a>
         <a href="https://opencollective.com/dribdat/updates">
           <button class="success">What's new?</button>
@@ -97,12 +99,13 @@
             <header>
               <i class="i-unlock"></i>
               <h5>It's all open</h5></header>
-            <p>Keep your project data where-ever you want. Track progress across the world's most popular open platforms. Did we mention that it is all <a href="https://github.com/dribdat/dribdat">open source</a> (MIT)?</p>
+            <p>Keep your project data where-ever you want. Track progress across the world's most popular open platforms.
+               Did we mention that this is entirely <a href="https://github.com/dribdat/dribdat/blob/main/LICENSE">open source</a>?</p>
           </div>
           <div>
             <header>
               <i class="i-play-circle"></i>
-              <h5>Simple as <em>π</em></h5></header>
+              <h5>Simple as a-<em>π</em></h5></header>
               <p>This is a platform for communities: accessible and usable for a wide range of participants on any device.
                 And yes, there is an <a href="https://github.com/dribdat/dribdat#api">API</a> for all your
                 <a href="https://github.com/dribdat/dridbot">bots</a> and
@@ -112,20 +115,20 @@
         <div class="flex two-800">
           <div>
             <header>
-              <i class="i-terminal"></i>
-              <h5>Powerful insights</h5></header>
-            <p>Learn what gets your projects and teams in the flow by stemming
-              <a href="https://meta.dribdat.cc/event/2/instructions" target="_blank">best practices</a> and
+              <i class="i-trophy"></i>
+              <h5>Pipe insights</h5></header>
+            <p>Take a break from the rush to learn what really gets your projects and teams in the flow, stem
+              <a href="https://meta.dribdat.cc/event/2/instructions" target="_blank">best practices</a> and apply
               <a href="https://meta.dribdat.cc/event/2/stages" target="_blank">bootstraps</a>
-              into your development method.</p>
+              to your development method.</p>
           </div>
           <div>
             <header>
               <i class="i-merge"></i>
               <h5>Import, export</h5></header>
-            <p>Liberate your innovative ideas and progress logs with
+            <p>Liberate your innovative ideas and projects with
               <a href="https://frictionlessdata.io" target="_blank">Frictionless Data</a> and
-               <a href="https://schema.org/Hackathon" target="_blank">Schema.org</a> to help publish, archive and analyse your content.</p>
+               <a href="https://schema.org/Hackathon" target="_blank">Schema.org</a> to better publish, archive and analyse your results.</p>
           </div>
         </div>
 
@@ -195,7 +198,7 @@
   	</div>
 
     <div class="content visual">
-      <h1>Ready .. set .. go!</h1>
+      <h1>Ready ... steady .. <em>go!</em></h1>
       <div class="simply-countdown"></div>
       <br>
       <p><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img style="margin-right:1em" alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" align="left"></a>The contents of this website, unless otherwise stated, are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
@@ -298,6 +301,7 @@
     .logo {
       width: 10em;
       margin-top: -2em;
+      margin-left: -1em;
     }
 
     .lead {
@@ -316,6 +320,14 @@
 
     .slogan {
       margin-top:-1em; margin-bottom:3em;
+    }
+    .slogan small {
+      min-width: 4.5em;
+      display: inline-block;
+    }
+    .action-buttons {
+      margin: 2em 1em;
+      padding-bottom: 4em;
     }
 
     tt {
@@ -359,10 +371,11 @@
 
 
     #top-tabs {
-      background:url(https://blog.datalets.ch/content/images/2017/10/image-3A47456_eightbit.resized.jpg) no-repeat;
+      background: #333;
+      /* url(https://blog.datalets.ch/content/images/2017/10/image-3A47456_eightbit.resized.jpg) no-repeat; */
       background-size: cover;
       text-align: center;
-      margin-top:3em;
+      padding-top: 0.5em;
     }
     #top-tabs label {
       background-color: black;

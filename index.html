@@ -18,7 +18,8 @@
   <main>
     <header class="hero visual">
       <div class="contents">
-        <h1 style="font-size:300%">dribdat</h1>
+        <img src="logo10.png" class="logo" title="dribdat" alt="dribdat">
+        <h1 class="title">dribdat</h1>
         <p class="slogan">
           The open source way to <tt>better_prototypes();</tt>
         </p>
@@ -28,7 +29,7 @@
     <div class="content visual" style="padding-top:0px">
       <p class="lead">
         <a href="https://github.com/dribdat">dribdat</a> is a software package for impactful sprints and hackathons.
-        Easily publish details of collaborative events,
+        Collect play-by-play details of collaborative events,
         track progress of teams, and document the results in real time.
       </p>
       <p class="subslogan">
@@ -63,28 +64,27 @@
 
       <div class="row">
         <div>
-          <img src="screens/results-energyhack.jpg">
-        </div>
-        <div>
-          <img src="screens/project-readme.jpg">
+          <mage style="background-image:url(screens/results-energyhack.jpg)"></mage>
           <ul><li>
-            Sync your data from GitHub, GitLab, Bitbucket, Etherpad, HackMD, DokuWiki, Google Docs &amp; more!
+            With all your challenges and teams on one page, you can generate clean, well-referenced user profiles, and later distribute digital certificates to your contributors.
           </li></ul>
         </div>
         <div>
-          <img src="screens/project-post.png">
+          <mage style="background-image:url(screens/project-readme.jpg)"></mage>
           <ul><li>
-            Automatic and manual confirmation helps you to track the progress of every team along the way.
-          </li><li>
-            Incorporate your own system of data wrangling steps, agile development milestones, or other validation goals.
-          </li><li>
-            Generate clearly referenced online user profiles and distribute digital certificates to your participants.
+            Sync your data from GitHub, GitLab, Bitbucket, Etherpad, HackMD, DokuWiki, Google Docs &amp; more! Easily embed screenshots, collaboration apps and social media content.
           </li></ul>
         </div>
         <div>
-          <img src="screens/project-log.png">
+          <mage style="background-image:url(screens/project-post.png)"></mage>
           <ul><li>
-            Every commit counts! Featuring Single-Sign On and integration with GitHub, Slack and Teams.
+            Automatic and manual validation tracks progress along the way, and you have the option of applying your own system of steps and milestones.
+          </li></ul>
+        </div>
+        <div>
+          <mage style="background-image:url(screens/project-log.png)"></mage>
+          <ul><li>
+            Every commit counts! Featuring a built in mechanism for sharing "Dribs" - short updates - as well as Single-Sign On and integration with GitHub, Slack and Teams.
           </li></ul>
         </div>
       </div>
@@ -92,7 +92,7 @@
 
     <div class="visual flex one">
       <div class="content convince-me">
-        <div class="flex two">
+        <div class="flex two-800">
           <div>
             <header>
               <i class="i-unlock"></i>
@@ -103,10 +103,22 @@
             <header>
               <i class="i-play-circle"></i>
               <h5>Simple as <em>π</em></h5></header>
-            <p>This is a platform for people: accessible and usable for a wide range of participants, on any device. And yes, there is an API for us geeks.</p>
+              <p>This is a platform for communities: accessible and usable for a wide range of participants on any device.
+                And yes, there is an <a href="https://github.com/dribdat/dribdat#api">API</a> for all your
+                <a href="https://github.com/dribdat/dridbot">bots</a> and
+                <a href="https://github.com/dribdat/backboard" target="_blank">apps</a>.</p>
           </div>
         </div>
-        <div class="flex two">
+        <div class="flex two-800">
+          <div>
+            <header>
+              <i class="i-terminal"></i>
+              <h5>Powerful insights</h5></header>
+            <p>Learn what gets your projects and teams in the flow by stemming
+              <a href="https://meta.dribdat.cc/event/2/instructions" target="_blank">best practices</a> and
+              <a href="https://meta.dribdat.cc/event/2/stages" target="_blank">bootstraps</a>
+              into your development method.</p>
+          </div>
           <div>
             <header>
               <i class="i-merge"></i>
@@ -115,19 +127,13 @@
               <a href="https://frictionlessdata.io" target="_blank">Frictionless Data</a> and
                <a href="https://schema.org/Hackathon" target="_blank">Schema.org</a> to help publish, archive and analyse your content.</p>
           </div>
-          <div>
-            <header>
-              <i class="i-terminal"></i>
-              <h5>Powerful insights</h5></header>
-            <p>Learn what makes your teams and projects tick by following their development according to the <a href="https://meta.dribdat.cc/event/2/instructions" target="_blank">best practices</a> and <a href="https://meta.dribdat.cc/event/2/stages" target="_blank">resources</a>.</p>
-          </div>
         </div>
 
-        <p><span class="tip">
+        <center><span class="tip">
           <i class="i-bulb"></i>
           Learn more in <a href="https://bit.ly/hello-dribdat" target="_blank" style="text-decoration:underline">The Pitch</a>
           &amp; <a href="https://github.com/hackathons-ftw/design/blob/master/Dribdat_Whitepaper_EN.pdf" target="_blank" style="text-decoration:underline">Whitepaper</a>
-        </span></p>
+        </span></center>
       </div>
     </div>
 
@@ -135,9 +141,9 @@
       <h1>Contact</h1>
       <p>Get free advice, and let's get set up for your next hack(athon)</p>
       <form id="contact-form" action="https://formspree.io/f/mvodqpdg" method="POST">
-        <label>Name:</label>
+        <label>Name</label>
         <input type="name" name="name" />
-        <label>E-mail:</label>
+        <label>E-mail</label>
         <input type="email" name="email" />
         <label>How do I ... ?</label>
         <textarea rows="2" name="message"></textarea>
@@ -173,6 +179,7 @@
       </div>
       <p>For more references, please visit
         <a href="https://meta.dribdat.cc/event/5" target="_blank">Tour de Hack</a>.
+        Thank you for your support <tt> &lt;3 &lt;3 &lt;3 </tt>
       </p>
     </div>
 
@@ -284,6 +291,15 @@
      }
     }
 
+    .title {
+      font-size: 10px;
+      visibility: hidden;
+    }
+    .logo {
+      width: 10em;
+      margin-top: -2em;
+    }
+
     .lead {
       font-size: 125%;
       padding-left: 1em;
@@ -295,12 +311,15 @@
       font-size: 125%;
       background: #ffc;
       padding: 1em;
+      line-height: 2.4em;
     }
 
     .slogan {
       margin-top:-1em; margin-bottom:3em;
     }
-    .slogan tt {
+
+    tt {
+      border-radius: 0.4em;
       font-size: 125%;
       background: #eee;
       padding: 0.2em;
@@ -351,9 +370,17 @@
       border-radius: 0px;
       margin: 0px;
     }
-    .tabs .row img, .tabs .row ul {
+    .tabs .row mage, .tabs .row ul {
       box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
       border: 1px solid #ccc;
+    }
+    .tabs .row mage {
+      display: block;
+      height: 500px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
     }
     .tabs :checked + .toggle {
       background: #ff9 !important;
@@ -365,10 +392,15 @@
       padding: 1em 3em;
       text-align: left;
       background: #ff9;
-      list-style: japanese-informal;
+      list-style: none; /*japanese-informal;*/
     }
     .tabs .row div {
       padding: 10px;
+    }
+
+    form label {
+      font-weight: bold;
+      letter-spacing: 2px;
     }
   </style>
 </body>

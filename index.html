@@ -22,7 +22,7 @@
         <h1 class="title">dribdat</h1>
         <p class="slogan">
           <small>Est.</small> <tt>2015</tt><br>
-          <small>Teams</small> <tt>500+</tt><br>
+          <small>Teams</small> <tt title="Estimate based on the total number of projects across all known servers">700*</tt><br>
           <small>License</small> <tt>MIT</tt><br>
         </p>
       </div>
@@ -36,20 +36,27 @@
       </p>
       <p class="subslogan">
         Follow the action on
-          <a href="https://github.com/dribdat" target="_blank">GitHub</a> or
-          <a href="https://twitter.com/dribdat" target="_blank">Twitter</a> or
-          <a href="https://opencollective.com/dribdat" target="_blank">OpenCollective</a>.
+          <a href="https://github.com/dribdat" target="_blank">GitHub</a>,
+          <a href="https://twitter.com/dribdat" target="_blank">Twitter</a>,
+          <a href="https://opencollective.com/dribdat/updates" target="_blank">OpenCollective</a> or
+          <a href="#newsletter">the newsletter</a>.
       </p>
 
       <p class="action-buttons">
         <a href="https://github.com/dribdat/dribdat#quickstart">
-          <button class="primary" style="font-size: 1.3em;">Install now</button>
+          <button class="primary" style="font-size: 1.3em;">
+            <i class="i-download"></i>
+            Install now</button>
         </a>
-        <a href="https://opencollective.com/dribdat/updates">
-          <button class="success">What's new?</button>
+        <a href="#contact">
+          <button class="success">
+            <i class="i-smiley"></i>
+            Get support</button>
         </a>
         <a href="https://github.com/dribdat/dribdat/blob/main/USAGE.md">
-          <button class="warning">User Guide</button>
+          <button class="warning">
+            <i class="i-book"></i>
+            Read the guide</button>
         </a>
       </p>
     </div>
@@ -68,7 +75,7 @@
         <div>
           <mage style="background-image:url(screens/results-energyhack.jpg)"></mage>
           <ul><li>
-            With all your challenges and projects on one page, you can get clean, well-referenced profiles of your work, and generate digital certificates of your impact.
+            With all your challenges and projects on one page, you can get clean, well-referenced profiles of your work, and generate digital certificates to bring home your impact.
           </li></ul>
         </div>
         <div>
@@ -97,10 +104,12 @@
         <div class="flex two-800">
           <div>
             <header>
-              <i class="i-unlock"></i>
-              <h5>It's all open</h5></header>
-            <p>Keep your project data where-ever you want. Track progress across the world's most popular open platforms.
-               Did we mention that this is entirely <a href="https://github.com/dribdat/dribdat/blob/main/LICENSE">open source</a>?</p>
+              <i class="i-trophy"></i>
+              <h5>Opt in to co-opt</h5></header>
+            <p>Share ownership of the process 
+              to learn what really gets your people into the flow. Stem design thinking practices with creative
+              <a href="https://meta.dribdat.cc/event/2/stages" target="_blank">bootstraps</a>
+              to do more with less.</p>
           </div>
           <div>
             <header>
@@ -115,12 +124,10 @@
         <div class="flex two-800">
           <div>
             <header>
-              <i class="i-trophy"></i>
-              <h5>Pipe insights</h5></header>
-            <p>Take a break from the rush to learn what really gets your projects and teams in the flow, stem
-              <a href="https://meta.dribdat.cc/event/2/instructions" target="_blank">practices</a> and apply
-              <a href="https://meta.dribdat.cc/event/2/stages" target="_blank">bootstraps</a>
-              to your development.</p>
+              <i class="i-unlock"></i>
+              <h5>Free as in freedom</h5></header>
+            <p>Apply open licenses and Code of Conduct by default. Connect to the world's most popular online platforms.
+               Did we mention that this is entirely <a href="https://github.com/dribdat/dribdat/blob/main/LICENSE">open source</a>?</p>
           </div>
           <div>
             <header>
@@ -140,7 +147,7 @@
       </div>
     </div>
 
-    <div class="content visual">
+    <div class="content visual"><a name="contact"></a>
       <h1>Contact</h1>
       <p>Get free advice, and let's get set up for your next hack/athon</p>
       <form id="contact-form" action="https://formspree.io/f/mvodqpdg" method="POST">
@@ -150,7 +157,7 @@
         <input type="email" name="email" />
         <label>How do I ... ?</label>
         <textarea rows="2" name="message"></textarea>
-        <input class="button large" type="submit" id="submit-form" value="Just Ask" />
+        <input class="button large" type="submit" id="submit-form" value="Just Ask :-)" />
         <p id="contact-form-status"></p>
       </form>
     </div>
@@ -197,10 +204,14 @@
     	<a target="_blank" href="https://getbootstrap.com/"><img src="stack/bootstrap.png" title="Bootstrap"></a>
   	</div>
 
-    <div class="content visual">
+    <div class="content visual"><a name="newsletter"></a>
       <h1>Ready ... steady .. <em>go!</em></h1>
+      <p>Get news of upcoming releases and events as they happen:</p>
+      <form action="https://tinyletter.com/dribdat" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/dribdat', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p style="display:none"><label for="tlemail">Email:</label></p><p style="margin-bottom:0px"><input type="text" style="width:20em" placeholder="E-mail address" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p><small><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></small></form>
+      
       <div class="simply-countdown"></div>
       <br>
+      <p>This page is made with <a href="https://picnicss.com" target="_blank">Picnic</a>, <a href="http://vincentloy.github.io/simplyCountdown.js/" target="_blank">simplyCountdown</a>, <a href="https://github.com/loadingio/ldiconfont/" target="_blank">ldIconFont</a>, and other quality open source software.</p>
       <p><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img style="margin-right:1em" alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" align="left"></a>The contents of this website, unless otherwise stated, are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
     </div>
 

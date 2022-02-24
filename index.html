@@ -30,56 +30,49 @@
 
     <div class="content visual" style="padding-top:0px">
       <p class="lead">
-        <b><tt>} dribdat {</tt></b> is an
-        <a href="https://github.com/dribdat">open source</a> web application that
-        enables more diverse and impactful sprints, hackathons, and open collaboration.
-        Collect play-by-play details, track and coach your teams, document all the results
-        - in real time.
+        <a href="https://github.com/dribdat">dribdat</a> enables more diverse and impactful sprints, hackathons, and open collaboration.
+        Collect play-by-play details, track and coach your teams, document the results in real time.
       </p>
       <center>
 
-        <div id="flipdown" class="flipdown"></div>
-
         <p class="action-buttons">
           <a href="https://github.com/dribdat/dribdat#quickstart">
-            <button class="primary">
+            <button class="primary" style="font-size: 1.3em;">
               <i class="i-download"></i>
-              Install me</button>
+              Installation</button>
           </a>
           <a href="#contact">
             <button class="success">
               <i class="i-smiley"></i>
               Get support</button>
           </a>
-          <a href="https://github.com/dribdat/dribdat/blob/main/docs/USAGE.md#usage">
+          <a href="https://github.com/dribdat/dribdat/blob/main/USAGE.md">
             <button class="warning">
               <i class="i-book"></i>
               Read the guide</button>
           </a>
         </p>
 
+        <div class="little-people">⛹🏽⛹️‍♀️⛹🏿⛹🏼⛹️‍♀️⛹🏾⛹️‍♀️⛹🏻</div>
         <p class="subslogan">
           Follow the action on
             <a href="https://github.com/dribdat" target="_blank">GitHub</a> &bull;
             <a href="https://twitter.com/dribdat" target="_blank">Twitter</a> &bull;
             <a href="https://opencollective.com/dribdat/updates" target="_blank">OpenCollective</a> &bull;
-            <a href="#newsletter">Newsletter</a>
+            <a href="#newsletter">E-mail</a>
         </p>
-        <div class="little-people">⛹🏽⛹️‍♀️⛹🏿⛹🏼⛹️‍♀️⛹🏾⛹️‍♀️⛹🏻</div>
-
       </center>
     </div>
 
-    <center><h2>Features</h2></center>
     <div class="tabs four visual" id="top-tabs">
       <input id='tab-1' type='radio' name='tabgroupB' checked />
       <label class="pseudo button toggle" for="tab-1">All on 1 page &#9654;</label>
       <input id='tab-2' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-2">Sync content &#9654;</label>
+      <label class="pseudo button toggle" for="tab-2">Sync your content &#9654;</label>
       <input id='tab-3' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-3">Track milestones &#9654;</label>
+      <label class="pseudo button toggle" for="tab-3">Set milestones &#9654;</label>
       <input id='tab-4' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-4">Set the pace</label>
+      <label class="pseudo button toggle" for="tab-4">Keep up the pace</label>
 
       <div class="row">
         <div>
@@ -103,7 +96,7 @@
         <div>
           <mage style="background-image:url(screens/project-log.png)"></mage>
           <ul><li>
-            Every commit counts, with a built in mechanism for sharing <b>dribs</b>: short updates and commit logs. Single-Sign On and integration is available with GitHub, Slack and MS Teams.
+            Every commit counts! Featuring a built in mechanism for sharing "Dribs" - short updates - as well as Single-Sign On and integration with GitHub, Slack and Teams.
           </li></ul>
         </div>
       </div>
@@ -117,9 +110,9 @@
               <i class="i-trophy"></i>
               <h5>Opt in to co-create</h5></header>
             <p>Share ownership of the process
-              to learn what really gets your people into the flow. Stem design thinking practices with creative
+              to learn what really gets your people into the flow. Stem design thinking practices with
               <a href="https://meta.dribdat.cc/event/2/stages" target="_blank">bootstraps</a>
-              to do more with less.</p>
+              to make the most of your time together.</p>
           </div>
           <div>
             <header>
@@ -152,29 +145,29 @@
         <center><span class="tip">
           <i class="i-bulb"></i>
           Learn more in <a href="https://bit.ly/hello-dribdat" target="_blank" style="text-decoration:underline">The Pitch</a>
-          &amp; <a href="https://github.com/hackathons-ftw/design/blob/master/Dribdat_Whitepaper_EN.pdf" target="_blank" style="text-decoration:underline">Whitepaper</a>
+          and our <a href="/whitepaper" target="_blank" style="text-decoration:underline">Whitepaper</a>
         </span></center>
       </div>
     </div>
 
-
-    <div class="content visual stack">
-      <h1>Stack</h1>
-      <p>The platforms that dribdat is built on are the same bootstraps that our participants use for prototyping.</p>
-
-    	<a target="_blank" href="https://python.org"><img src="stack/python.svg"><span>Python</span></a>
-      <a target="_blank" href="https://palletsprojects.com/p/flask/"><img src="stack/pallets.png"><span>Pallets</span></a>
-    	<a target="_blank" href="https://www.postgresql.org/"><img src="stack/postgres.png"><span>Postgres</span></a>
-      <a target="_blank" href="https://pbutcher.uk/flipdown/"><img src="stack/flipdown.png"><span>FlipDown</span></a>
-      <a target="_blank" href="https://getbootstrap.com/"><img src="stack/bootstrap.png"><span>Bootstrap</span></a>
-    	<a target="_blank" href="https://w3c.github.io/html/"><img src="stack/html5.png"><span>HTML5</span></a>
-  	</div>
+    <div class="content visual"><a name="contact"></a>
+      <h1>Contact</h1>
+      <p>Let us help you get dribdat set up for your next hack/athon</p>
+      <form id="contact-form" action="https://formspree.io/f/mvodqpdg" method="POST">
+        <label>Name</label>
+        <input type="name" name="name" />
+        <label>E-mail</label>
+        <input type="email" name="email" />
+        <label>How do I ... ?</label>
+        <textarea rows="2" name="message"></textarea>
+        <input class="button large" type="submit" id="submit-form" value="&lt; Just Ask &gt;" />
+        <p id="contact-form-status"></p>
+      </form>
+    </div>
 
     <div class="content visual">
       <h1>References</h1>
-      <p>Check out these
-        <a href="https://forum.opendata.ch/c/expeditions/hackathons/16" target="_blank">events</a>,
-        and behind them - the projects, teams, and
+      <p>Check out these events and behind them, the projects, teams, and
         <a href="https://github.com/dribdat/dribdat#credits" target="_blank">supporters</a> of dribdat:</p>
 
       <div class="portfolio">
@@ -198,67 +191,78 @@
         </a>
       </div>
       <p>More references can be found at
-        <a href="https://meta.dribdat.cc/event/5" target="_blank">Tour de Hack</a>.
+        <a href="https://meta.dribdat.cc/event/5" target="_blank">Tour de Hack</a>.<br>
+        <b>For upcoming events</b>, please visit
+          <a href="https://forum.opendata.ch/c/expeditions/hackathons/16" target="_blank">forum.opendata.ch</a>.
       </p>
     </div>
 
+    <div class="content visual stack">
+      <h1>Built with</h1>
+      <p>The stack of dribdat is much like what our participants use for prototyping.</p>
 
-    <div class="content visual contact"><a name="contact"></a>
-      <h1>Contact</h1>
-      <p>We can help you get dribdat set up for your next hack/athon:</p>
-      <form id="contact-form" action="https://formspree.io/f/mvodqpdg" method="POST">
-        <label>Name</label>
-        <input type="name" name="name" required />
-        <label>E-mail</label>
-        <input type="email" name="email" required />
-        <label>Any questions?</label>
-        <textarea rows="2" name="message"></textarea>
-        <input class="button large success" type="submit" id="submit-form" value="{ Let's drib }" />
-        <p id="contact-form-status"></p>
-      </form>
-    </div>
+    	<a target="_blank" href="https://python.org"><img src="stack/python.svg" title="Python"></a>
+      <a target="_blank" href="https://palletsprojects.com/p/flask/"><img src="stack/pallets.png" title="Pallets"></a>
+    	<a target="_blank" href="https://www.postgresql.org/"><img src="stack/postgres.png" title="Postgres"></a>
+    	<a target="_blank" href="https://w3c.github.io/html/"><img src="stack/html5.png" title="HTML5"></a>
+    	<a target="_blank" href="https://getbootstrap.com/"><img src="stack/bootstrap.png" title="Bootstrap"></a>
+  	</div>
 
     <div class="content visual"><a name="newsletter"></a>
       <h1>Ready ... steady .. <em>go!</em></h1>
       <p>News of upcoming releases and events as they happen:</p>
       <form action="https://tinyletter.com/dribdat" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/dribdat', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p style="display:none"><label for="tlemail">Email:</label></p><p style="margin-bottom:0px"><input type="text" style="width:20em" placeholder="E-mail address" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p><small><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></small></form>
 
+      <div class="simply-countdown"></div>
       <br>
       <p>This page is made with <a href="https://picnicss.com" target="_blank">Picnic</a>, <a href="http://vincentloy.github.io/simplyCountdown.js/" target="_blank">simplyCountdown</a>, <a href="https://github.com/loadingio/ldiconfont/" target="_blank">ldIconFont</a>, and other quality open source software.</p>
       <p><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img style="margin-right:1em" alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" align="left"></a>The contents of this website, unless otherwise stated, are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
     </div>
 
+
   </main>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flipdown@latest/dist/flipdown.min.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/flipdown@latest/dist/flipdown.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/VincentLoy/simplyCountdown.js/css/simplyCountdown.theme.default.css"/>
+  <script src="https://cdn.jsdelivr.net/gh/VincentLoy/simplyCountdown.js/dist/simplyCountdown.min.js"></script>
   <script>
-    // Set up FlipDown clock
-    document.addEventListener('DOMContentLoaded', () => {
-      var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 2) + 1;
-      new FlipDown(twoDaysFromNow).start();
+    d = new Date();
+    simplyCountdown('.simply-countdown', {
+        year: d.getFullYear(),
+        month: d.getMonth()+2,
+        day: d.getDate(),
+        hour: d.getHours()+1,
+        minute: d.getMinutes(),
+        // words: {
+        //   days: { singular: 'Tag', plural: 'Tagen' },
+        //   hours: { singular: 'Std', plural: 'Stunden' },
+        //   minutes: { singular: 'Min', plural: 'Minuten' },
+        //   seconds: { singular: 'Sek', plural: 'Sekunden' }
+        // },
+        // plural: false
     });
+  </script>
 
-    // Contact form
-    var form = document.getElementById("contact-form");
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("contact-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.innerHTML = "Thanks for your submission!";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
+  <script>
+      var form = document.getElementById("contact-form");
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("contact-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        }).then(response => {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        }).catch(error => {
+          status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+      }
+      form.addEventListener("submit", handleSubmit)
   </script>
 
   <style>
@@ -320,7 +324,7 @@
       padding-left: 1em;
       margin-left: 0px;
       padding-bottom: 0px;
-      border-left: 4px solid lightgrey;
+      border-left: 2px solid grey;
     }
     .tip {
       font-size: 125%;
@@ -329,15 +333,9 @@
       line-height: 2.4em;
     }
 
-    .featuring {
-      font-style: italic;
-      font-family: Times, Verdana, serif;
-      font-size: 150%;
-      text-align: center;
+    .little-people {
+      font-size: 200%;
     }
-
-    .action-buttons { font-size: 150%; }
-    .little-people { font-size: 200%; }
 
     .slogan {
       margin-top:-1em;
@@ -383,25 +381,16 @@
       margin-right: 0.5em;
     }
 
-    .stack a {
-      display: inline-block;
-      text-align: center;
-      width: 150px;
-    }
     .stack img {
-      width: 60%;
-      margin-top: 1em;
-    }
-    .stack a span {
-      display: inline-block;
-      top: 1em;
-      left: 0px;
-      width: 100%;
+      height: 6em;
+      margin-right: 1em;
     }
 
     header i {
       font-size: 200%;
     }
+
+
 
     #top-tabs {
       background: #333;
@@ -444,14 +433,9 @@
       padding: 10px;
     }
 
-    .contact form label {
-      margin-top: 2em;
-      display: block;
+    form label {
       font-weight: bold;
       letter-spacing: 2px;
-    }
-    .contact form .button {
-      font-size: 150%;
     }
   </style>
 

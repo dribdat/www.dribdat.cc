@@ -59,23 +59,33 @@
         <p class="subslogan">
           Follow the action on
             <a href="https://github.com/dribdat" target="_blank">GitHub</a> &bull;
+            <a href="https://gitlab.com/dribdat" target="_blank">GitLab</a> &bull;
+            <a href="https://codeberg/dribdat" target="_blank">Codeberg</a> &bull;
             <a href="https://twitter.com/dribdat" target="_blank">Twitter</a> &bull;
             <a href="https://opencollective.com/dribdat/updates" target="_blank">OpenCollective</a>
         </p>
+      </center>
+    </div>
 
+    <div class="visual flex one">
+      <center class="content">
+        <script src="https://opencollective.com/dribdat/events.js" width="500"></script>
+        <a href="https://opencollective.com/dribdat/donate" target="_blank">
+          <img src="https://opencollective.com/dribdat/donate/button@2x.png?color=blue" width=300 />
+        </a>
         <div class="little-people">⛹🏽⛹️‍♀️⛹🏿⛹🏼⛹️‍♀️⛹🏾⛹️‍♀️⛹🏻</div>
-
+        <a class="twitter-timeline" data-height="400" data-dnt="true" href="https://twitter.com/dribdat?ref_src=twsrc%5Etfw">Tweets by dribdat</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
       </center>
     </div>
 
     <div class="content visual"><h2>Features</h2></div>
     <div class="tabs four visual" id="top-tabs">
       <input id='tab-1' type='radio' name='tabgroupB' checked />
-      <label class="pseudo button toggle" for="tab-1">All on 1 page &#9654;</label>
+      <label class="pseudo button toggle" for="tab-1">All on one page</label>
       <input id='tab-2' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-2">Sync your content &#9654;</label>
+      <label class="pseudo button toggle" for="tab-2">Sync your content</label>
       <input id='tab-3' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-3">Track milestones &#9654;</label>
+      <label class="pseudo button toggle" for="tab-3">Track milestones</label>
       <input id='tab-4' type='radio' name='tabgroupB' />
       <label class="pseudo button toggle" for="tab-4">Keep up the pace!</label>
 
@@ -95,7 +105,7 @@
         <div>
           <mage style="background-image:url(screens/project-post.png)"></mage>
           <ul><li>
-            Automatic and manual validation tracks progress along the way, with the option of applying your own system of steps and milestones.
+            Progress along the built-in dribdat pipeline - with the option of applying your own system of checkpoints and milestones. Ask your teams pointed questions to guide their development. See how far you get!
           </li></ul>
         </div>
         <div>
@@ -158,6 +168,38 @@
       </div>
     </div>
 
+    <div class="content visual contact"><a name="contact"></a>
+      <h1>Get support</h1>
+      <form id="contact-form" action="https://formspree.io/f/mvodqpdg" method="POST">
+        <label>My Name</label>
+        <input type="name" name="name" required />
+        <label>An E-mail address</label>
+        <input type="email" name="email" required />
+        <label>
+          <input type="checkbox" name="request-offer" value="1">
+          <span class="checkable">
+            Please send me an offer to set up my event on dribdat
+          </span>
+        </label>
+        <label>
+          <input type="checkbox" name="request-offer" value="1">
+          <span class="checkable">
+            I would like to find out how to contribute to the project
+          </span>
+        </label>
+        <label>
+          <input type="checkbox" name="request-offer" value="1">
+          <span class="checkable">
+            I have found a bug and here is how to reproduce it
+          </span>
+        </label>
+        <label>Comments or further questions:</label>
+        <textarea rows="2" name="message"></textarea>
+        <input class="button large success" type="submit" id="submit-form" value="{ Let's drib }" />
+        <p id="contact-form-status"></p>
+      </form>
+    </div>
+
     <div class="content visual stack">
       <h1>Stack</h1>
       <p>The platforms that dribdat is built on are the same bootstraps that our participants use:</p>
@@ -198,20 +240,6 @@
           <img src="refs/ipdet.png" height="60" alt="IPDET"> EvalHack
         </a>
       </div>
-    </div>
-
-    <div class="content visual contact"><a name="contact"></a>
-      <h1>Contact</h1>
-      <form id="contact-form" action="https://formspree.io/f/mvodqpdg" method="POST">
-        <label>Name</label>
-        <input type="name" name="name" required />
-        <label>E-mail</label>
-        <input type="email" name="email" required />
-        <label>Any questions?</label>
-        <textarea rows="2" name="message"></textarea>
-        <input class="button large success" type="submit" id="submit-form" value="{ Let's drib }" />
-        <p id="contact-form-status"></p>
-      </form>
     </div>
 
     <div class="content visual">

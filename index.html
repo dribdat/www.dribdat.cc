@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="application-name" content="dribdat"/>
-  <meta name="mobile-web-app-capable" content="yes"/>
   <meta name="theme-color" content="#000000"/>
   <link rel="icon" href="/favicon.ico"/>
   <link rel="manifest" href="/manifest.json"/>
@@ -11,18 +9,18 @@
   <link rel="stylesheet" href="picnic.min.css" cdn-href="https://cdn.jsdelivr.net/npm/picnic">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ldiconfont@0.1.5/dist/ldif.min.css" integrity="sha256-HSVmqq+jUY3FgajHU7GiVNZcDHBFm6q0OHhRXBwGUJk=" crossorigin="anonymous">
 
-  <title>dribdat.cc</title>
-  <meta name="description" content="Open source Data driven Hackathons">
+  <title>DRIBD@</title>
+  <meta name="description" content="Tick, tock. Tick, tock.">
 </head>
 <body>
   <main>
     <header class="hero visual">
       <div class="contents">
         <img src="logo11.png" class="logo" title="dribdat" alt="dribdat">
-        <h1 class="title">dribdat</h1>
+        <h1 class="title">DRIBD@</h1>
         <p class="slogan">
           <small>Est.</small> <tt>2015</tt><br>
-          <small>Teams</small> <tt title="Estimate based on the total number of projects across all known servers">700*</tt><br>
+          <small>Teams</small> <tt title="Estimate based on the total number of projects across all known servers">1000*</tt><br>
           <small>License</small> <tt>MIT</tt><br>
         </p>
       </div>
@@ -30,24 +28,24 @@
 
     <div class="content visual" style="padding-top:0px">
       <p class="lead">
-        <b><tt>} dribdat {</tt></b> is an
-        <a href="https://github.com/dribdat">open source</a> web application that
-        enables more diverse and impactful sprints, hackathons, and open collaboration.
-        Collect play-by-play details, track and coach your teams, document all the results
-        - in real time.
+        <a href="https://github.com/dribdat">dribdat</a> is an open source application that
+        enables more diverse and impactful sprints, hackathons, and open collaboration:
+        we use it to collect play-by-play details, track and coach teams, document all
+        the results in one place in real time, with less constraints and more attention
+        to open licenses and fair conditions than most other platforms of the type.
       </p>
       <center>
 
         <p class="action-buttons">
-          <a href="https://docs.dribdat.cc/usage.html">
+          <a href="https://dribdat.cc/">
             <button class="warning">
               <i class="i-book"></i>
-              Handbook</button>
+              Guide</button>
           </a>
-          <a href="https://docs.dribdat.cc/deploy.html">
+          <a href="https://meta.dribdat.cc">
             <button class="primary">
-              <i class="i-download"></i>
-              Install</button>
+              <i class="i-trophy"></i>
+              Demo</button>
           </a>
           <a href="#contact">
             <button class="success">
@@ -56,49 +54,62 @@
           </a>
         </p>
 
-        <p class="subslogan">
-          Follow the action on
+        <p class="subslogan" style="font-size: 150%">
+          <i class="i-clipboard"></i>
+
+        Dear hackathon organizers and champions: you are invited! A new meetup series is launching with our friends in Basel - visit <a href="https://may4basel.dribdat.cc" target="_blank">may4basel.dribdat.cc</a>
+
+        </p>
+        <p>
+          <i class="i-gear"></i>
+          Support the development and follow the action on <a href="https://opencollective.com/dribdat" target="_blank">OpenCollective</a>.
+        </p>
+        <p>
+          <i class="i-bulb"></i>
+          Learn more about our roadmap in the <a href="https://docs.dribdat.cc/whitepaper" target="_blank">Whitepaper</a>.
+        </p>
+
+          <!--Follow the action on
             <a href="https://github.com/dribdat" target="_blank">GitHub</a> &bull;
             <a href="https://gitlab.com/dribdat" target="_blank">GitLab</a> &bull;
             <a href="https://codeberg/dribdat" target="_blank">Codeberg</a> &bull;
             <a href="https://twitter.com/dribdat" target="_blank">Twitter</a> &bull;
             <a href="https://opencollective.com/dribdat/updates" target="_blank">OpenCollective</a>
-        </p>
+          -->
       </center>
     </div>
 
     <div class="visual flex one">
       <center class="content">
-        <a href="https://opencollective.com/dribdat/donate" target="_blank">
+        <a href="https://opencollective.com/dribdat/donate" target="_blank" title="OpenCollective">
           <img src="https://opencollective.com/dribdat/donate/button@2x.png?color=blue" width=300 />
         </a>
         <div class="little-people">⛹🏽⛹️‍♀️⛹🏿⛹🏼⛹️‍♀️⛹🏾⛹️‍♀️⛹🏻</div>
-        <a class="twitter-timeline" data-height="400" data-dnt="true" href="https://twitter.com/dribdat?ref_src=twsrc%5Etfw">Tweets by dribdat</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
       </center>
     </div>
 
     <div class="content visual"><h2>Features</h2></div>
     <div class="tabs four visual" id="top-tabs">
       <input id='tab-1' type='radio' name='tabgroupB' checked />
-      <label class="pseudo button toggle" for="tab-1">All on one page</label>
+      <label class="pseudo button toggle" for="tab-1"><em>1</em> All on one page</label>
       <input id='tab-2' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-2">Sync your content</label>
+      <label class="pseudo button toggle" for="tab-2"><em>2</em> Sync your content</label>
       <input id='tab-3' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-3">Track milestones</label>
+      <label class="pseudo button toggle" for="tab-3"><em>3</em> Track milestones</label>
       <input id='tab-4' type='radio' name='tabgroupB' />
-      <label class="pseudo button toggle" for="tab-4">Keep up the pace!</label>
+      <label class="pseudo button toggle" for="tab-4"><em>4</em> Keep up the pace!</label>
 
       <div class="row">
         <div>
           <mage style="background-image:url(screens/results-energyhack.jpg)"></mage>
           <ul><li>
-            With all your challenges and projects on one page, you can get clean, well-referenced profiles of your work, and generate digital certificates to bring home the impact.
+            With all your challenges and projects on one page, you can get clean, well-referenced profiles of your work, and generate rich online profiles to bring home the impact that your teams are having.
           </li></ul>
         </div>
         <div>
           <mage style="background-image:url(screens/project-readme.jpg)"></mage>
           <ul><li>
-            Connect your project data from GitHub, GitLab, Bitbucket, Etherpad, HackMD, DokuWiki, Google Docs &amp; more! Easily embed screenshots, collaboration apps and social media content.
+            Connect your project data from GitHub, GitLab, Gitea, Bitbucket, Etherpad, HackMD, DokuWiki, Google Docs &amp; more! Easily embed screenshots, web collaboration apps, videos and social media content.
           </li></ul>
         </div>
         <div>
@@ -126,7 +137,7 @@
             <p>Learn what really gets your people into the flow.
               Stem design thinking practices with cooperative
               <a href="https://meta.dribdat.cc/event/2/stages" target="_blank">bootstraps</a>
-              to make the most of your time together.</p>
+              to make the most of your valuable time together.</p>
           </div>
           <div>
             <header>
@@ -144,7 +155,7 @@
               <i class="i-unlock"></i>
               <h5>Free as in freedom</h5></header>
             <p>Apply open licenses and a Code of Conduct by default.
-               Connect to the net's most popular open development platforms.
+               Connect to the net's most popular dev platforms.
                Did we already mention that dribdat is entirely <a href="https://github.com/dribdat/dribdat/blob/main/LICENSE">open source</a>?</p>
           </div>
           <div>
@@ -157,18 +168,11 @@
                Own and open your data to a high standard.</p>
           </div>
         </div>
-
-        <center><span class="tip">
-          <i class="i-bulb"></i>
-          Learn more about our roadmap in the <a href="https://docs.dribdat.cc/whitepaper" target="_blank">Whitepaper</a>.<br>
-          <i class="i-gear"></i>
-          Support the development on <a href="https://opencollective.com/dribdat" target="_blank">OpenCollective</a>.
-        </span></center>
       </div>
     </div>
 
     <div class="content visual contact"><a name="contact"></a>
-      <h1>Get support</h1>
+      <h1>Get help</h1>
       <form id="contact-form" action="https://formspree.io/f/mvodqpdg" method="POST">
         <label>My Name</label>
         <input type="name" name="name" required />
@@ -177,7 +181,7 @@
         <label>
           <input type="checkbox" name="request-offer" value="1">
           <span class="checkable">
-            Please send me an offer to set up my event on dribdat
+            I could use support to get my event set up and running
           </span>
         </label>
         <label>
@@ -192,16 +196,16 @@
             I have found a bug and here is how to reproduce it
           </span>
         </label>
-        <label>Comments or further questions:</label>
+        <label>Please elaborate:</label>
         <textarea rows="2" name="message"></textarea>
-        <input class="button large success" type="submit" id="submit-form" value="{ Let's drib }" />
+        <input class="button large success" type="submit" id="submit-form" value="Okay go!" />
         <p id="contact-form-status"></p>
       </form>
     </div>
 
     <div class="content visual stack">
       <h1>Stack</h1>
-      <p>The platforms that dribdat is built on are the same bootstraps that our participants use:</p>
+      <p>The platforms that dribdat is built on, are the same bootstraps that our participants use:</p>
 
       <a target="_blank" href="https://python.org"><img src="stack/python.svg"><span>Python</span></a>
       <a target="_blank" href="https://palletsprojects.com/p/flask/"><img src="stack/pallets.png"><span>Pallets</span></a>
@@ -232,7 +236,7 @@
         <a href="https://db.schoolofdata.ch/event/4" target="_blank">
         <img src="refs/swihack.png" height="60" alt="SWI"> SWIhack
         </a>
-        <a href="https://hack4socialgood.ch" target="_blank">
+        <a href="https://bd.hack4socialgood.ch" target="_blank">
         <img src="refs/bfh.png" height="60" alt="Hack4SocialGood"> Hack4SocialGood
         </a>
         <a href="https://ipdet.evalhack.org/" target="_blank">
@@ -421,17 +425,24 @@
 
 
     #top-tabs {
-      background: #333;
+      background: white;
       /* url(https://blog.datalets.ch/content/images/2017/10/image-3A47456_eightbit.resized.jpg) no-repeat; */
       background-size: cover;
-      text-align: center;
-      padding-top: 0.5em;
+      padding: none;
     }
     #top-tabs label {
-      background-color: black;
-      color: white;
+      color: #333;
       border-radius: 0px;
       margin: 0px;
+      font-size: 120%;
+      padding: 0.3em;
+      margin-left: 0.5em;
+    }
+    #top-tabs label em {
+      font-style: normal;
+      border: 1px solid #333;
+      padding: 0.2em 0.5em;
+      border-radius: 1em;
     }
     .tabs .row mage, .tabs .row ul {
       box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
@@ -448,7 +459,7 @@
     .tabs :checked + .toggle {
       background: #ff9 !important;
       color: black !important;
-      box-shadow: none;
+      box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
     }
     .tabs .row ul {
       margin: 0px;
